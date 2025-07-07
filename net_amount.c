@@ -20,7 +20,7 @@ void main()
       net_amount = amount - discount;
 
       // Output
-      printf("Amount      : %d\n", amount);
-      printf("- Discount  : %d\n", discount);
-      printf("Net Amount  : %d", net_amount);
+      printf("Amount      : %6d\n", amount);
+      printf("- Discount  : %6d\n", discount);
+      printf("Net Amount  : %6d", net_amount);
 }

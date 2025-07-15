@@ -1,0 +1,22 @@
+// Program to create an array, take values and print them
+// Date : 15-JUL-2025
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+void main()
+{
+  int a[10];
+  int i;
+
+    srand(time(0));
+
+    for(i = 0; i < 10; i ++)
+    {
+        a[i] = rand() % 100;
+        printf("%d ", a[i]);
+    }
+
+
+}
